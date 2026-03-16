@@ -18,8 +18,8 @@ To run the tool, copy and paste the following commands in your Termux:
 pkg update && pkg upgrade -y
 pkg install python php git -y
 git clone https://github.com/kohabdull471-dot/UnknownPhisher#
-cd SHR-PHISHER
-python shr.py
+cd UnknownPhisher
+python UnknownPhisher.py
 
 🌐 Public Link Generation
 After starting the tool, open a New Session in Termux and run:
