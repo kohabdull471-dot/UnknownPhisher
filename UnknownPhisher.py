@@ -19,7 +19,7 @@ def banner():
     print(" ")
     print(" ")
     print(f"{yellow}")
-    print("               >> SHR-PHISHER v1.0 <<")
+    print("               >> Unknown Phisher v1.0 <<")
     print(f"{white}              [ Created by Mr Unknown ]")
     print(f"{green}               [ Team:  The Unknown ]")
     print(f"{white}================================================================")
