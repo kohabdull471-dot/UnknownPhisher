@@ -12,12 +12,12 @@ yellow = "\033[1;33m"
 def banner():
     os.system('clear')
     print(f"{red}")
-    # Big Banner for SHR PHISHER
-    print("  ____  _   _ ____      ____  _   _ ___ ____  _   _ _____ ____  ")
-    print(" / ___|| | | |  _ \    |  _ \| | | |_ _/ ___|| | | | ____|  _ \ ")
-    print(" \___ \| |_| | |_) |   | |_) | |_| || |\___ \| |_| |  _| | |_) |")
-    print("  ___) |  _  |  _ <    |  _ <|  _  || | ___) |  _  | |___|  _ < ")
-    print(" |____/|_| |_|_| \_\   |_| \_\_| |_|___|____/|_| |_|_____|_| \_\\")
+    # Big Banner for Unknown Phisher
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
     print(f"{yellow}")
     print("               >> SHR-PHISHER v1.0 <<")
     print(f"{white}              [ Created by Mr Unknown ]")
