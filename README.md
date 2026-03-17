@@ -17,7 +17,7 @@ To run the tool, copy and paste the following commands in your Termux:
 ```bash
 pkg update && pkg upgrade -y
 pkg install python php git -y
-git clone https://github.com/kohabdull471-dot/UnknownPhisher#
+git clone https://github.com/kohabdull471-dot/UnknownPhisher
 cd UnknownPhisher
 python UnknownPhisher.py
 
